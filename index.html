@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/modern.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/components/header.css">
+    <link rel="stylesheet" href="./style/components/mobile.css">
+    <link rel="stylesheet" href="./style/components/hero.css">
+    <link rel="stylesheet" href="./style/components/features.css">
+    <link rel="stylesheet" href="./style/components/about.css">
+    <link rel="stylesheet" href="./style/components/review.css">
+    <link rel="stylesheet" href="./style/components/contact.css">
+    <link rel="stylesheet" href="./style/components/footer.css">
+    <link rel="stylesheet" href="./style/util.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- import for icons -->
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <script src="./src/main.js" type="module"></script>
+    <title>Leather Prodcuts</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header container">
+
+        <!-- Title /logo / Bars -->
+        <div class="header__box">
+
+        <div class="header__title-box">
+        <img class="logo" src="./style/images/vecteezy_briefcase-hand-drawn-cartoon-style-illustration-ai-generated_32187456.png" alt="logo" width="2048px" height="2048px">
+        <div class="header__title">Leather Prodcuts</div>
+        </div>
+
+        <button id="bars-btn" class="header__bars" aria-label="menu button">
+        <svg 
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        stroke-width="1.5" 
+        stroke="currentColor" 
+        class="header__bars">
+        <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        </button>
+
+
+<!-- Header social menu + icons -->
+    <nav class="header__menu">
+
+        <div class="menu__box">
+
+        <a
+        title="facebook"
+        aria-label="facebook link"
+        aria-hidden="true"
+        href="https://facebook.com" 
+        target="_blank" 
+        rel="noreferer noopener" 
+        class="header__social"> 
+        <i class="lni lni-facebook-original"> </i></a>
+        
+        <a
+        title="instagram"
+        aria-label="instagram link"
+        aria-hidden="true"
+        href="https://instagram.com"
+        target="_blank"
+        rel="noreferer noopener"
+        class="header__social">
+        <i class="lni lni-instagram-original"> </i></a>
+
+        <a
+        title="twitter"
+        aria-label="twitter link"
+        aria-hidden="true"
+        href="https://twitter.com" 
+        target="_blank" 
+        rel="noreferer noopener" 
+        class="header__social"> 
+        <i class="lni lni-twitter-original"> </i></a>
+
+        </div>
+
+<!-- header seperator  -->
+        <div class="header__seperator"></div>
+
+<!-- header buuttons -->
+        <div class="header__button-box">
+        <a href="#" class=" btn header__sign-in-btn">Sign in</a>
+        <a href="#" class="btn header__my-cart-btn">My cart
+           
+        <svg 
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" 
+        fill="currentColor" 
+        class="header__my-cart-btn__arrow">
+        <path 
+        fill-rule="evenodd"
+        d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+        clip-rule="evenodd" />
+        </svg>
+        </a>
+    </div>
+    </nav>
+    </div>
+    </header>
+
+    <!-- Mobile navigation section  -->
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="mobile__close-btn" id="close-btn">close</button>
+    <img 
+       class="mobile__logo" 
+       src="./style/images/vecteezy_briefcase-hand-drawn-cartoon-style-illustration-ai-generated_32187456.png" 
+       alt="logo" 
+       width="2048px" 
+       height="2048px"/>
+
+       <div class="mobile__menu-box">
+
+        <a
+        title="facebook"
+        aria-label="facebook link"
+        aria-hidden="true"
+        href="https://facebook.com" 
+        target="_blank" 
+        rel="noreferer noopener" 
+        class="mobile__social"> 
+        <i class="lni lni-facebook-original"> </i></a>
+        
+        <a
+        title="instagram"
+        aria-label="instagram link"
+        aria-hidden="true"
+        href="https://instagram.com"
+        target="_blank"
+        rel="noreferer noopener"
+        class="mobile__social">
+        <i class="lni lni-instagram-original"> </i></a>
+
+        <a
+        title="twitter"
+        aria-label="twitter link"
+        aria-hidden="true"
+        href="https://twitter.com" 
+        target="_blank" 
+        rel="noreferer noopener" 
+        class="mobile__social"> 
+        <i class="lni lni-twitter-original"> </i></a>
+        </div>
+
+        <div class="mobile__seperator"></div>
+
+
+        <div class="header__button-box">
+        <a href="#" class=" btn mobile__sign-in-btn">Sign in</a>
+        <a href="#" class="btn mobile__my-cart-btn">Enter store
+           
+        <svg 
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" 
+        fill="currentColor" 
+        class="mobile__my-cart-btn__arrow">
+        <path 
+        fill-rule="evenodd"
+        d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+        clip-rule="evenodd" />
+        </svg>
+        </a>
+    </div>
+    </div>
+    <main>
+
+    <!-- Hero section  -->
+    <section class="hero container">
+      
+    <div class="hero__image-box">
+
+    <!-- <img class="hero__image" src="./style/images/hero1.png" alt="leather belt" width="2048" height="2048">
+    <img class="hero__image" src="./style/images/hero2.png" alt="leather gloves" width="2048" height="2048">
+    <img class="hero__image" src="./style/images/hero3.png" alt="leather wallet" width="2048" height="2048"> -->
+    <img class="hero__image" src="./style/images/hero4.png" alt="leather hat" width="2048" height="2048">
+    </div>
+    <h1 class="hero__title">The Art of Fine Craftsmanship.</h1>
+    <p class="hero__description1">We design and manufacture a wide range of leather and textile goods.</p>
+    <p class="hero__description2">With more than <strong>30 years experience</strong>, we are able to provide our clients with quality products that are designed and manufactured to their <strong>specific requirements.</strong></p>
+
+    <div class="hero__button">
+    <button class="hero__btn btn">Contact us</button>
+    </div>
+    </section>
+
+    <!-- Featured products section  -->
+    <section class="feature container">
+
+    
+
+    <div class="features__box">
+
+        <a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+   
+
+    <div class="features__content">
+    <img class="feature__image" src="./style/images/feature1.png" alt="Belt" height="2048" width="2048">
+
+        <div class="features__box2">
+        <h3 class="features__title">Belts</h3>
+        <p class="features__description">23 products</p>
+    </div>
+    </div>
+</a>
+
+
+<a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+    <div class="features__content">
+
+        <img class="feature__image" src="./style/images/feature2.png" alt="bag"height="2000" width="2000">
+
+        <div class="features__box2">
+        <h3 class="features__title">Bags</h3>
+        <p class="features__description">14 prodcuts</p>
+    </div>
+    </div>
+</a>
+
+<a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+    <div class="features__content">
+        
+        <img class="feature__image" src="./style/images/feature3.png" alt="gun" height="2048" width="2048">
+        <div class="features__box2">
+        <h3 class="features__title">Weapons</h3>
+        <p class="features__description">50 products</p>
+    </div>
+    </div>
+</a>
+
+<a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+    <div class="features__content">
+        
+        <img class="feature__image" src="./style/images/hero4.png" alt="hat" height="2048" width="2048">
+        <div class="features__box2">
+        <h3 class="features__title">Hats</h3>
+        <p class="features__description">28 products</p>
+    </div>
+    </div>
+</a>
+
+<a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+    <div class="features__content">
+        
+        <img class="feature__image" src="./style/images/feature5.png" alt="dog"height="5481" width="4655">
+        <div class="features__box2">
+        <h3 class="features__title">Dog Collars</h3>
+        <p class="features__description">15 products</p>
+    </div>
+    </div>
+</a>
+
+<a href="https://www.leatherproducts.co.za/www-leatherproducts-co-za-3.html" target="_blank" class="features__btn">
+    <div class="features__content">
+        
+        <img class="feature__image" src="./style/images/feature6.png" alt="gloves"height="2048" width="2048">
+        <div class="features__box2">
+        <h3 class="features__title">Custom</h3>
+        <p class="features__description">Custom orders</p>
+    </div>
+    </div>
+</a>
+    </div>
+    </section>
+
+
+    <!-- About section  -->
+    <section class="about container">
+        
+
+        <div class="about__box">
+
+            <h2 class="about__title">Who are we?</h2>
+
+            <div class="about__description-box1">
+            <p class="about__description1">Situated in Krugersdorp Gauteng South Africa, Leather Products was <strong>founded all the way back in the 1990s</strong>, Since then
+                 we have pride ourselves on creating premium leather goods that embody timeless elegance and unparalleled craftsmanship. </p>
+
+                 <p class="about__description1-1">Each piece in our collection is meticulously handcrafted by skilled artisans, using only the finest quality leathers sourced 
+                 from the best tanneries around South Africa.</p>
+                </div>
+
+                <div class="about__description-box2">
+            <p class="about__description2">Our dedication to excellence is reflected in every stitch, ensuring that our products are not only beautiful but also durable and long-lasting. 
+                Whether it's a <strong>sophisticated handbag, a sleek wallet, or a classic belt</strong>, our leather goods 
+                are designed to elevate your style and stand the test of time.</p>
+
+                <p class="about__description3"><strong>To us it is more than just a piece of leather.</strong></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Review section -->
+    <section class="review container">
+
+        <h2 class="review__title">Customer reviews</h2>
+        <p class="review__description">What our customers are saying..</p>
+
+        <div class="review__boxes">
+
+         
+
+                <div class="review__box1">
+                <p class="review__description1">"</p>
+                <p class="review__description2">I recently bought a leather wallet from Leather Products and I must say, its the best wallet I've ever owned. 
+                    The quality of the leather is top-notch, and the wallet is well-made and sturdy. 
+                    It's the perfect size, with enough compartments to keep all my cards, cash, and even a few coins organized. 
+                    The sleek design fits comfortably in my pocket, and I appreciate the timeless style. This wallet is definitely worth every penny</p>
+
+                    <div class="review__img-name">
+                <img class="review__img" src="./style/images/lady1.png" alt="lady1" width="720px" height="972px">
+                <p class="review__name">Emily R.</p>
+            </div>
+            </div>
+          
+
+        
+
+                <div class="review__box2">
+                <p class="review__description1">"</p>
+                <p class="review__description2">I am absolutely thrilled with my new leather handbag from Leather Products! 
+                    The craftsmanship is exceptional, and the attention to detail is evident in every stitch. The leather is soft yet durable, and the design is both stylish and practical.
+                    It has quickly become my go-to bag for everyday use. 
+                    I receive compliments on it all the time, and I couldn't be happier with my purchase. Highly recommended!</p>
+                    
+                    <div class="review__img-name">
+                <img class="review__img" src="./style/images/man1.png" alt="man" width="720px" height="972px">
+                <p class="review__name">Michael T.</p>
+            </div>
+            </div>
+         
+
+
+                <div class="review__box1">
+                <p class="review__description1">"</p>
+                <p class="review__description2">The leather belt I purchased from Leather Products has exceeded my expectations in every way. 
+                    The leather is thick and feels incredibly high-quality, yet its flexible and comfortable to wear. 
+                    The buckle is solid and stylish, adding a touch of sophistication to any outfit. It fits perfectly and stays in place all day without any adjustments. 
+                    I've worn it every day since I got it, and it still looks as good as new. Fantastic product and great value</p>
+                    
+                    <div class="review__img-name">
+                <img class="review__img" src="./style/images/man 2.png" alt="man2"width="720px" height="972px">
+                <p class="review__name">Sarah K.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+   
+    </main>
+    <!-- Footer section -->
+    <footer class="footer container">
+<h3 class="footer">Leather Products</h3>
+    </footer>
+
+</body>
+</html>
